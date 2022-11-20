@@ -1,0 +1,16 @@
+name: GuteNameStartKick
+version: 1.0.0
+api: 4.0.0
+author: GuteName
+main: GuteNameStartKick\StartKick
+description: Votekick / Voteban Plugin
+permissions:
+  command.startkick:
+    default: op
+    description: Startkick for permission
+  bypass.startkick:
+    default: op
+    description: bypass für StartKick
+  command.startkick.unban:
+    default: op
+    description: unban command für StartKick
